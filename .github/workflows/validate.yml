@@ -1,7 +1,7 @@
-name: HTML Check
+name: HTML Check 
 
-on:
-  push:
+on: 
+  push: 
 
 jobs:
   build:

@@ -1,4 +1,4 @@
-header {
+.header {
     background-image: url("img/header-banner.png");
     width: 1776px;
     Height: 930px;
@@ -19,7 +19,7 @@ background-color: #252B42;
 
 }
 
- footer {
+ .footer {
 
     background-color: #252B42;
  }

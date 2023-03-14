@@ -16,4 +16,7 @@ font-family: 'Montserrat', sans-serif;
 --background-color-card: #FFFFFF, #DEDEDE;
 }
 
-
+img {
+    display: block;
+    width: 100%; 
+}

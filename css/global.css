@@ -8,12 +8,15 @@
 }
 
 :root {
+--main-color: #252B42;
+--another-color: #374754;
+--additional-color: #18171D; 
 font-family: 'Montserrat', sans-serif;
 --btn-color: #2091F9;
 --button-color: #FFFFFF;  
---background-color: #252B42;
---bgd-prising-card-color: #2091F9, #DEDEDE;  
---background-color-card: #FFFFFF, #DEDEDE;
+--container-color: #252B42;
+--prising-card-color: #2091F9, #DEDEDE;  
+--card-color: #FFFFFF, #DEDEDE;
 }
 
 img {

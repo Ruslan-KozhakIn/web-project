@@ -7,6 +7,8 @@
     min-width: 400px;
 }
 
+ /* Header Bar  */
+
 .header__bar-nav {
     font-size: 15px;
     display: flex;
@@ -25,9 +27,9 @@
  
 
 
-.header__bar-main-title {
+.header__bar-main-icon {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: absolute;
     top: 31px;
     left: 25px;
@@ -35,21 +37,21 @@
     
 }
 
-.header__main-info {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 55px;
-    color: #FFFFFF;
+.header__central-info {
+color: #FFFFFF;
+     
 
-    display: flex;
-    position: absolute;
-    top: 206px;
-    left: 41px;
-    right: 41px;
-    
-    
+
+
+
+
 }
+
+
+
+
+    
+
 
 
 

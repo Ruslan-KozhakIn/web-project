@@ -9,10 +9,10 @@ border: 1px solid red;
 }
 
 :root {
+font-family: 'Montserrat', sans-serif;
 --main-color: #252B42;
 --another-color: #374754;
 --additional-color: #18171D; 
-font-family: 'Montserrat', sans-serif;
 --btn-color: #2091F9;
 --button-color: #FFFFFF;  
 --container-color: #252B42;
@@ -25,7 +25,7 @@ img {
     width: 100%; 
 }
 
-body {
+.container {
 max-width: 1200px;
 margin: auto; 
 

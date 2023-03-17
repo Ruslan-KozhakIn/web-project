@@ -1,3 +1,4 @@
+/* @media (min-width: 500px) { */
 .header {
     background-image: url(../img/head-banner.png);
     background-repeat: no-repeat;
@@ -29,25 +30,90 @@
 
 .header__bar-main-icon {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     position: absolute;
     top: 31px;
-    left: 25px;
-    width: 186px;
+    left: 26px;
     
+    
+   
+
+
 }
+
+/* Central info with button */
 
 .header__central-info {
 color: #FFFFFF;
-     
+display: flex;
+flex-direction: column;
+position: relative;
+margin: 0px;
+top: -80px;
+text-align: center;
 
 
+}
 
+.header__main-info {
+    font-size: 48px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 117px;
+    bottom: 27px;
+    max-width: 420px;
+}
+
+.header__main-descr {
+    font-size: 28px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 27px;
+    margin-bottom: 69px;
+}
+
+.header__button-click {
+ display: flex;
+ flex-direction: row;
+
+ justify-content: center;
+ 
+ 
+ color:#FFFFFF;
+ background-color: var(--btn-color);
+ width: 236px;
+ border-radius: 35px;
+ 
+ margin-left: 91px;;
+margin-right: 91px ;
+
+height: 52px;
 
 
 }
 
 
+.header__button-text {
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 16px;
+    margin-bottom: 16px;
+   
+}
+
+
+
+
+
+
+/* } */
 
 
     
